@@ -15,6 +15,9 @@
 
     <!-- BOOTSTRAP JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+
+    <!-- BOOTSTRAP ICONS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
 </head>
 
 <body>
@@ -72,11 +75,7 @@
             </div>
         </div>
 
-        <br>
-        <br>
-        <br>
-
-        <div id="thefounder">
+        <div id="thefounder" class="mt-5">
             <div class="row">
                 <div class="col">
                     <img src="images/founder.png" alt="" width="auto" height="400" class="d-inline-block align-text-top">
@@ -153,13 +152,11 @@
         </div>
     </div>
 
-    <br><br>
+    <div class="section-project mt-5" id="projects">
+        <div class="white-title centered">PROJECTS</div>
 
-    <div class="section-project" id="projects">
-        <span class="white-title centered">PROJECTS</span>
-
-        <div class="mt-5 p-3" data-rate="0.5" data-effect="slide-up">
-                <div class="xp-list mt-5" >
+        <div class="mt-4 p-3" data-rate="0.5" data-effect="slide-up">
+                <div class="xp-list" >
                     <h5>Project 1</h5>
                     <div class="xp" data-rate="0.5" data-effect="slide-right">
                         In July 2017, We visited a community called Despuzeau where a feeding program was available for the most vulnerable children. I was honored to serve 
@@ -196,7 +193,76 @@
 
     </div>
 
-    <br><br>
+    <div class="section-activities container mt-5 mb-4" id="activities">
+        <span class="pink-title centered">ACTIVITIES</span>
+
+        <div class="row mt-5">
+            <div class="col">
+                <img src="images/activities/child-about-us.png" alt="" width="auto" height="200" class="d-inline-block align-middle mt-4">
+            </div>
+            <div class="col">
+                <img src="images/activities/child-about-us-1.png" alt="" width="auto" height="225" class="d-inline-block align-middle mt-3">
+            </div>
+            <div class="col">
+                <img src="images/activities/f56deb90-cfec-4feb-9a23-5650a602ed6b.png" alt="" width="auto" height="270" class="d-inline-block align-middle">
+            </div>
+            <div class="col">
+                <img src="images/activities/child-about-us-2.png" alt="" width="auto" height="225" class="d-inline-block align-middle mt-3">
+            </div>
+            <div class="col">
+                <img src="images/activities/child-about-us-3.png" alt="" width="auto" height="200" class="d-inline-block align-middle mt-4">
+            </div>
+        </div>
+
+        <div class="row mt-5 centered">
+            <div class="col">
+                <iframe width="376" height="219" src="https://www.youtube.com/embed/yMNg37gbQvs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            <div class="col">
+                <iframe width="376" height="219" src="https://www.youtube.com/embed/3P9sbzD1wzg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+        </div>
+    </div>
+
+    <div class="section-donate mt-5" id="donate">
+        <div class="white-title centered">DONATE</div>
+        <span class="lighter">WE WELCOME YOUR DONATION</span>
+
+        <div class="row mt-4">
+            <div class="col">
+                <a href="https://cash.app/$Shanaforthekids">
+                    <img src="images/icons/Cash_App-Full-Logo.wine.svg" alt="" width="auto" height="200" class="d-inline-block icon align-middle mt-4">
+                </a>
+            </div>
+            <div class="col">
+                <a href="https://www.paypal.com/donate?token=THj38o6R4EHTXJnfbRyj3_CpNL8yvqOkokrsFDjL4mH7qj8gO2BrvOt6JrCtw356-8tcJIIyqjxvi8D9">
+                    <img src="images/icons/paypal.png" alt="" width="auto" height="200" class="d-inline-block align-middle icon mt-4">
+                </a>
+            </div>
+            <div class="col">
+                <a href="mailto:shanaforthekids@gmail.com">
+                    <img src="images/icons/Zelle.png" alt="" width="auto" height="200" class="d-inline-block align-middle icon mt-4">
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <div class="section-footer container mt-4 mb-4">
+        <div>
+            <a href="mailto:info@ShanaForTheKids.org">info@ShanaForTheKids.org</a>  |  © 2021 - Shana For The Kids  | Developed by <a href="gillesritchmond.github.io">Ritchmond Gilles</a>
+        </div>
+        <div class="row mt-2">
+            <div class="col-md-4">
+                <a href="https://web.facebook.com/shanaforthekids/"><i class="bi bi-facebook"></i></a>
+            </div>
+            <div class="col-md-4">
+                <a href="https://www.instagram.com/shanaforthekidsht/"><i class="bi bi-instagram"></i></a>
+            </div>
+            <div class="col-md-4">
+                <a href="https://twitter.com/shanaforthekids"><i class="bi bi-twitter"></i></a>
+            </div>
+        </div>
+    </div>
 
 </body>
 

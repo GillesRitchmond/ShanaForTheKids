@@ -65,14 +65,13 @@ p{
 .section-project{
     background-color: #084468;
     color: #FFFFFF;
-    padding: 6% 9%;
+    padding: 4% 9%;
     width: 100%;
 }
 
 .centered{
     text-align: center;
-    /* margin: 0 auto; */
-    margin-left: 43%;
+    margin: 0 auto;
 }
 .xp-list{
     margin-left: 100px;
@@ -87,12 +86,43 @@ p{
     text-align: right;
     margin-right: 20px;
 }
-.level{
-    margin-left: 30px;
+.section-activities, .section-activities .pink-title{
+    padding: 0;
+    margin: 0 auto;
+    text-align: center;
 }
-i{
-    font-size: 20px;
+
+.section-donate{
+    background-color: #EB1D96;
+    color: #FFFFFF;
+    padding: 4% 9%;
+    width: 100%;
+    text-align: center;
 }
-.form-row{
-    width: 600px;
+.lighter{
+    font-weight: lighter;
+    font-size: 1.5rem;
+}
+.section-footer, .section-footer a{
+    text-align: center;
+    margin: 0 auto;
+    color: #084468;
+}
+.section-footer a:hover{
+    color: #EB1D96;
+}
+.section-footer .row{
+    width: 180px;
+    margin: 0 auto;
+}
+.section-footer .row .col-md-4{
+    padding: 0 2px;
+}
+.bi{
+    font-size: 1.3rem;
+}
+.icon{
+    background-color: #FFFFFF;
+    border-radius: 10%;
+    padding: 5%;
 }
