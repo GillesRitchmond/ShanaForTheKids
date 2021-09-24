@@ -1,0 +1,98 @@
+:root{
+    font-size: 16px;
+    --primary-color: #084468;
+    --secondary-color: #EB1D96;
+    --gray: #707070;
+}
+
+.navbar .container{
+    border-bottom: 1px solid #084468;
+    padding-bottom: 15px;
+}
+.nav-item{
+    padding: 0 6px;
+}
+.nav-link{
+    color: #084468;
+    font-size: 18px;
+}
+.nav-link:hover{
+    color: #EB1D96;
+}
+.donate{
+    background-color: #EB1D96;
+    color: #FFFFFF;
+    padding: 4px 6px;
+}
+.nav-item .donate{
+    color: #FFFFFF;
+}
+
+.content{
+    margin-top: 3%;
+}
+.content .row .col .row .col{
+    margin-top: 6%;
+}
+.title{
+    background-color: #084468;
+    color: #FFFFFF;
+    padding: 4px 6px;
+    font-size: 1.3rem;
+}
+.pink-title{
+    color: #EB1D96;
+    font-weight: bold;
+    font-size: 2rem;
+    padding: 5% 0 3% 0;
+}
+p{
+    font-size: 1.3rem;
+    font-weight: lighter;
+    color: #707070;
+    text-align: justify;
+}
+.col img{
+    margin: 0 10%;
+}
+.white-title{
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 2rem;
+    text-align: center;
+    margin: 0 auto;
+}
+.section-project{
+    background-color: #084468;
+    color: #FFFFFF;
+    padding: 6% 9%;
+    width: 100%;
+}
+
+.centered{
+    text-align: center;
+    /* margin: 0 auto; */
+    margin-left: 43%;
+}
+.xp-list{
+    margin-left: 100px;
+}
+.xp{
+    margin-left: 50px;
+    padding: 2% 0 2% 4%;
+    border-left: 2px solid #FFFFFF;
+    text-align: justify;
+}
+.justify-content-end{
+    text-align: right;
+    margin-right: 20px;
+}
+.level{
+    margin-left: 30px;
+}
+i{
+    font-size: 20px;
+}
+.form-row{
+    width: 600px;
+}
